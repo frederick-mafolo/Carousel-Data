@@ -1,0 +1,26 @@
+<div class="scroll-tools-container" >
+    <swiper
+        [slidesPerView]="3"
+        [spaceBetween]="50"
+        [navigation]="true"
+        (swiper)="onSwiper($event)"
+        (slideChange)="onSlideChange()"
+      >
+        <ng-template swiperSlide swiperSlide *ngFor="let item of graphData;let i = index">
+          <div class="stats-population">
+            <div class="population-header">
+             <p class="title">{{item.title}}</p>
+             <p class="desc">Population Distrubutions</p>
+            </div>
+            <!-- <div id="pieChartDiv"></div> -->
+            <div style="width: 100%;height: 300px;" id="{{'chartdiv1'+i}}"></div>
+            <div class="population-footer">
+              <p class="footer-title">R{{item.cost}}</p>
+              <p class="footer-desc">Annual spend</p>
+             </div>
+        </div>
+        </ng-template>
+      </swiper>
+    </div>
+  
+    

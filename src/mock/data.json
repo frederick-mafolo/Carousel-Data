@@ -1,0 +1,22 @@
+ {
+     
+    "2019": [
+      ["Married Professionals", 0.23, 49000000000],
+      ["Empty Nesters", 0.11, 21000000000],
+      ["Single professionals", 0.31, 33000000000],
+      ["Settled family", 0.17, 40000000000],
+      ["Aspiring professionals", 0.19, 11000000000],
+      ["Bachelors", 0.15, 50000000000],
+      ["Retirees", 0.17, 23000000]
+    ],
+    "2020": [
+      ["Married Professionals", 0.22, 48000000000],
+      ["Empty Nesters", 0.14, 23000000000],
+      ["Single professionals", 0.28, 31000000000],
+      ["Settled family", 0.19, 23000000000],
+      ["Aspiring professionals", 0.19, 10000000000],
+      ["Bachelors", 0.16, 51000000000],
+      ["Retirees", 0.15, 22000000]
+    ]
+
+}
